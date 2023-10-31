@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.8vw;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.demo {
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+
+.margin-right {
+    margin-right: 2%;
+}
+
+.header h1 {
+    font-size: 1.2vw;
+    margin: 10px 20px;
+}
+
+.header {
+    background-color: aquamarine;
+    border: 1px #090 solid;
+    font-size: 1vw;
+    color: blue;
+    border-radius: 5px;
+}
+
+.menu {
+    background-color: #000;
+    color: white;
+
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar {
+    padding: 0;
+    margin-left: 2vw;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.box-left {
+    float: left;
+    width: 74%;
+}
+
+.box-right {
+    float: left;
+    width: 24%;
+}
+
+.footer {
+    padding: 20px;
+    background-color: aquamarine;
+    border: 1px #090 solid;
+    font-size: 0.8vw;
+    height: 50%;
+    color: blue;
+    border-radius: 5px;
+}
+
+.tittle {
+    background-color: #eee;
+    border-radius: 5px 5px 0px 0px;
+    border-right: 1px #ccc solid;
+    border-top: 1px #ccc solid;
+    border-left: 1px #CCC solid;
+    padding: 10px;
+    border-bottom: 1px #CCC solid;
+}
+
+.content {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px 0px 5px 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.content2 {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.account {
+    line-height: 150%;
+}
+
+form input {
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form input[type="checkbox"] {
+    border-radius: 5px;
+}
+
+form button {
+    margin: 10px 0 10px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    transition: 300ms all ease;
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+.account li a {
+    color: teal;
+    text-decoration: none;
+}
+
+.account li a:hover {
+    color: #060;
+    text-decoration: underline;
+}
